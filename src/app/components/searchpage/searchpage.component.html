@@ -1,0 +1,37 @@
+<html>
+
+ 
+
+  <div class="yo-menu">
+      <img src="./assets/logo.png" width="120" height="30" class="img" alt="">
+      
+    </div>
+
+
+
+
+
+
+
+<div>
+  <form>
+    <div class="form-group customDiv">
+      <label for="exampleInputEmail1">Schoology</label>
+   
+        <small id="none" class="form-text text-muted">Search for autocomplete. Minumum 3 letters</small>
+        <span id="list_id">
+        <input type="text" class="form-control" id="input_id" (keyup)="getSuggestions($event)" autocomplete="off" aria-describedby="emailHelp" placeholder="search here" list="dynmicUserIds">
+      
+      <ul class="list-group" id="get_suggestion">
+        <li *ngFor="let instructor of instructors"  class="list-group-item"> <a  class="card-link  handcursor"  >{{instructor.instructor}}</a></li>
+        
+      </ul>
+    </span>
+    </div>
+
+    </form>
+
+  </div>
+
+
+ </html>

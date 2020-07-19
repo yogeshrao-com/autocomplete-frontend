@@ -1,0 +1,31 @@
+.formdiv{
+    width: 50%;
+    text-align: center;
+}
+
+.customDiv{
+    color: black;
+    min-width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }  
+
+  .yo-menu{
+    background-color: #0677BA;
+    min-width: 100%;
+    min-height: 60px;
+    
+ }
+
+ .img{
+     padding-left: 20px;
+     padding-top: 15px;
+ }
+
+
+  
